@@ -1,0 +1,169 @@
+body{
+    border:none;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    font-family: 'Korolev Medium', sans-serif;
+}
+
+header{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    background-color:rgb(0, 210, 198);
+    /* justify-content: space-between; */
+    position: sticky;
+    top:0;   
+    z-index: 1;
+}
+.logo{
+    width: fit-content;
+    padding-left: 10px;
+}
+
+.logo img{
+    width: 84.7px;
+    height: auto;
+    margin: 20px;
+    padding:0;
+}
+
+.navkeys{
+    display: flex;
+    width: 100%;
+    gap: 70px;
+    justify-content: end;
+    padding-right: 40px;
+    margin-right: 16px;
+}
+
+.bar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 19px;
+    font-size: 23px;
+    margin-left: 30px;
+    font-size: clamp(1.2rem, 3vh, 1.5rem);
+}
+.bar a{
+    color: whitesmoke;
+    font-family: 'Korolev Medium';
+    text-decoration: none;
+}
+
+.bar a:hover{
+    text-decoration: underline;
+}
+.media{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+li{
+    list-style: none;
+    
+}
+.fig1{
+    margin-top: 1px;
+    /* height: 100vh; */
+    width: 100vw;
+    position: relative;
+
+}
+
+.hero-img img{
+    width: 100vw;
+}
+
+.content{
+    position: absolute;
+    top: 12vw;
+    left: 5vw;
+    color: white;
+    font-family: "Korolev Medium";
+    font-size: clamp(1.2rem, 3vw, 2.5rem);
+
+}
+button{
+    border-radius: 25px;
+    padding: 10px 35px;
+    font-size: medium;
+    font-family: "Korolev Medium";
+    border: 2px solid white;
+    color:white ;
+    background-color: rgba(0, 0, 0, 0);
+    cursor: pointer;
+}
+.fig2{
+    position: relative;
+    top: -4px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fig2 img, .fig3 img{
+    width: 100vw;
+}
+
+.secondcontent{
+    position:absolute;
+    background-color:rgba(64, 81, 35, 0.825);
+    padding: 25px 85px;
+    width: 30vw;
+    border-radius: 110px;
+    text-align: center;
+    color: white;
+}
+.fig3{
+    position: relative;
+    top: -4px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.thirdcontent{
+    position: absolute;
+    background-color:rgba(64, 81, 35, 0.825);
+    padding: 25px 85px;
+    width: 30vw;
+    border-radius: 110px;
+    text-align: center;
+    color: white;
+}
+footer{
+    position: relative;
+    top: -4px;
+    background-color: #3f3d3d;
+    color: whitesmoke;
+    width: 100vw;
+    height: 125px;
+    font-size: 12px;
+    
+
+}
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 60px;
+    padding-top: 15px;
+    gap: 29px;
+}
+.details a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+.details  a:hover{
+    text-decoration: underline;
+}
+p{
+    padding-top: 9px;
+    text-align: center;
+
+}
